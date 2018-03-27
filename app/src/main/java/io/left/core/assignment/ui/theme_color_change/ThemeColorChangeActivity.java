@@ -355,9 +355,9 @@ public class ThemeColorChangeActivity extends BaseActivity<ThemeColorChangeMvpVi
                 imageviewUser.setVisibility(View.VISIBLE);
                 imageviewUser.animate().alpha(1);
                 imageviewUser.startAnimation(AnimationUtils.loadAnimation(this, R.anim.transcation_up) );
-                if (flag){
+                /*if (flag){
                     startActivity(new Intent(this, ThemeColorChangeActivity.class));
-                }
+                }*/
                 break;
 
             case  R.id.image_button_edit_profile:

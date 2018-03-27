@@ -75,13 +75,13 @@ public class EditProfileActivity extends BaseActivity<EditProfileMvpView,EditPro
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
         ButterKnife.bind(this);
 
+        toolbar.setTitle("");
         setSupportActionBar(toolbar);
 
 
